@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">LoL Best Support</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">LoL Best Support</string>
+    <string name="enemy_ad_carry">Enemy\nAD</string>
+    <string name="enemy_support">Enemy\nSupport</string>
+    <string name="ally_ad_carry">Ally\nAD</string>
+    <string name="go">Go!</string>
+    <string name="back">Back</string>
+    <string name="best_support">Best support...</string>
+    <string name="also_consider">Also consider...</string>
+
+</resources>

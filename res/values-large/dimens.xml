@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    
+    <dimen name="champion_width">180dp</dimen>
+    <dimen name="champion_height">270dp</dimen>
+
+</resources>

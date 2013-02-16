@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="MediumFont">20sp</dimen>
+
+    <dimen name="champion_width">90dp</dimen>
+    <dimen name="champion_height">135dp</dimen>
+    
+</resources>

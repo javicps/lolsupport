@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgr" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/enemy_ad_carry"
+            android:textColor="@color/red"
+            android:textSize="@dimen/MediumFont"
+            android:textStyle="bold"
+            tools:context=".Main" />
+
+        <Gallery
+            android:id="@+id/gallery1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/textView1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery1"
+            android:text="@string/enemy_support"
+            android:textColor="@color/red"
+            android:textSize="@dimen/MediumFont"
+            android:textStyle="bold"
+            tools:context=".Main" />
+
+        <Gallery
+            android:id="@+id/gallery2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery1"
+            android:layout_toRightOf="@id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery2"
+            android:text="@string/ally_ad_carry"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/MediumFont"
+            android:textStyle="bold"
+            tools:context=".Main" />
+
+        <Gallery
+            android:id="@+id/gallery3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery2"
+            android:layout_toRightOf="@id/textView3" />
+    </RelativeLayout>
+
+    <org.ninjalamp.lolsupport.widgets.LolsupportButton
+        android:id="@+id/go_button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_released"
+        android:text="@string/go"
+        android:textColor="@color/white"
+        android:textSize="16sp" >
+    </org.ninjalamp.lolsupport.widgets.LolsupportButton>
+
+</RelativeLayout>
