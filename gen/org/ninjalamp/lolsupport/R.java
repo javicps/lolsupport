@@ -56,17 +56,19 @@ public final class R {
         public static final int lulu=0x7f020012;
         public static final int lux=0x7f020013;
         public static final int missfortune=0x7f020014;
-        public static final int nunu=0x7f020015;
-        public static final int question=0x7f020016;
-        public static final int sivir=0x7f020017;
-        public static final int sona=0x7f020018;
-        public static final int soraka=0x7f020019;
-        public static final int taric=0x7f02001a;
-        public static final int tristana=0x7f02001b;
-        public static final int urgot=0x7f02001c;
-        public static final int varus=0x7f02001d;
-        public static final int vayne=0x7f02001e;
-        public static final int zyra=0x7f02001f;
+        public static final int nami=0x7f020015;
+        public static final int nunu=0x7f020016;
+        public static final int question=0x7f020017;
+        public static final int sivir=0x7f020018;
+        public static final int sona=0x7f020019;
+        public static final int soraka=0x7f02001a;
+        public static final int taric=0x7f02001b;
+        public static final int tristana=0x7f02001c;
+        public static final int twitch=0x7f02001d;
+        public static final int urgot=0x7f02001e;
+        public static final int varus=0x7f02001f;
+        public static final int vayne=0x7f020020;
+        public static final int zyra=0x7f020021;
     }
     public static final class id {
         public static final int adView=0x7f0a0012;

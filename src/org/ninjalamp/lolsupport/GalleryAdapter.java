@@ -19,8 +19,8 @@ public abstract class GalleryAdapter extends BaseAdapter {
 		mGalleryItemBackground = attr.getResourceId(R.styleable.SupportGallery_android_galleryItemBackground, 0);
 	}
 
-	protected Integer[] SUPPORT_ELEMENTS = {R.drawable.question, R.drawable.leona, R.drawable.janna, R.drawable.lulu , R.drawable.lux, R.drawable.nunu, R.drawable.sona, R.drawable.soraka, R.drawable.taric, R.drawable.zyra, R.drawable.alistar, R.drawable.blitzcrank, R.drawable.fiddlesticks};
-	protected Integer[] ADC_ELEMENTS = {R.drawable.question, R.drawable.ezreal, R.drawable.corki, R.drawable.graves, R.drawable.vayne, R.drawable.kogmaw, R.drawable.caitlyn, R.drawable.missfortune, R.drawable.draven, R.drawable.sivir, R.drawable.varus, R.drawable.tristana, R.drawable.ashe, R.drawable.urgot };
+	protected Integer[] SUPPORT_ELEMENTS = {R.drawable.question, R.drawable.leona, R.drawable.janna, R.drawable.lulu , R.drawable.nunu, R.drawable.sona, R.drawable.soraka, R.drawable.taric, R.drawable.zyra, R.drawable.alistar, R.drawable.blitzcrank, R.drawable.fiddlesticks, R.drawable.nami};
+	protected Integer[] ADC_ELEMENTS = {R.drawable.question, R.drawable.ezreal, R.drawable.corki, R.drawable.graves, R.drawable.vayne, R.drawable.kogmaw, R.drawable.caitlyn, R.drawable.missfortune, R.drawable.draven, R.drawable.sivir, R.drawable.varus, R.drawable.tristana, R.drawable.ashe, R.drawable.urgot, R.drawable.twitch };
 
 	protected abstract Integer[] getElements();
 	
